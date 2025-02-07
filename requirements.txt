@@ -1,0 +1,17 @@
+# Machine Learning & Deep Learning  
+tensorflow  
+tensorflow-datasets  
+
+# Data Processing & Utilities  
+numpy  
+pandas  
+
+# Visualization  
+matplotlib  
+seaborn  
+
+# Model Evaluation  
+scikit-learn  
+
+# Model Deployment
+streamlit

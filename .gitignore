@@ -1,0 +1,51 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+*.env
+*.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data Files
+*.csv
+*.json
+*.xlsx
+*.db
+*.sqlite
+
+# TensorFlow / Keras Saved Models
+*.h5
+*.keras
+*.pb
+saved_model/
+training_models/
+
+# Logs and Checkpoints
+logs/
+*.log
+checkpoint/
+*.ckpt
+*.ckpt.*
+
+# Streamlit Cache
+.streamlit/
+*.cache
+*.pkl
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Git Ignore for Large Files
+*.zip
+*.tar.gz
+*.rar
