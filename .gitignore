@@ -1,51 +1,49 @@
-# Python Bytecode
+# Ignore Python Bytecode
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Virtual Environment
+# Ignore Virtual Environment
 venv/
 env/
-*.env
 *.venv
+*.env
 
-# Jupyter Notebooks
-.ipynb_checkpoints/
-
-# Data Files
+# Ignore Dataset Files (if any)
+datasets/
 *.csv
+*.tsv
 *.json
 *.xlsx
-*.db
-*.sqlite
 
-# TensorFlow / Keras Saved Models
-*.h5
+# Ignore Model Checkpoints & Saved Models
+models/
 *.keras
+*.h5
 *.pb
-saved_model/
-training_models/
+checkpoints/
 
-# Logs and Checkpoints
+# Ignore Streamlit & Jupyter Cache
+.streamlit/
+.ipynb_checkpoints/
+
+# Ignore Logs & System Files
 logs/
 *.log
-checkpoint/
-*.ckpt
-*.ckpt.*
+*.out
+*.err
+*.pid
+*.gz
+*.zip
+*.tar
+*.tar.gz
 
-# Streamlit Cache
-.streamlit/
-*.cache
-*.pkl
-
-# OS / Editor Files
-.DS_Store
-Thumbs.db
+# Ignore IDE & OS-Specific Files
 .vscode/
 .idea/
 *.swp
+.DS_Store
+Thumbs.db
 
-# Git Ignore for Large Files
-*.zip
-*.tar.gz
-*.rar
+# Ignore Git Credentials
+.gitconfig
+.env
